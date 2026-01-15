@@ -15,7 +15,7 @@ target_include_directories(queue PUBLIC ${CMAKE_SOURCE_DIR}/lib/queue)
 
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
-aux_source_directory(${CMAKE_SOURCE_DIR}/src SRC_LIST)
+aux_source_directory(${CMAKE_SOURCE_DIR}/Src SRC_LIST)
 
 # 创建可执行文件目标
 add_executable(Tictactoe ${SRC_LIST})
